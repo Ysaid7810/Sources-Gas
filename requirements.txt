@@ -1,0 +1,42 @@
+# GasGAT — Python Dependencies
+# pip install -r requirements.txt
+#
+# Note (Apple Silicon / macOS):
+#   MPS backend incompatible with scatter_reduce in PyTorch Geometric.
+#   Training runs on CPU automatically (PYTORCH_ENABLE_MPS_FALLBACK=1).
+
+# ── Core ──────────────────────────────────────────────────────────────────────
+requests>=2.31.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+pandas>=1.5.0
+numpy>=1.23.0
+
+# ── Graph Neural Network ──────────────────────────────────────────────────────
+torch>=2.0.0
+torch-geometric>=2.3.0
+# torch-scatter and torch-sparse: install matching your torch+cuda version
+# See https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+# torch-scatter>=2.1.0
+# torch-sparse>=0.6.0
+
+# ── Static Analysis (Slither labeling) ───────────────────────────────────────
+slither-analyzer>=0.11.0
+solc-select>=0.9.0
+# After install: solc-select install 0.8.17 && solc-select use 0.8.17
+
+# ── Baselines ─────────────────────────────────────────────────────────────────
+xgboost>=1.7.0
+scikit-learn>=1.2.0
+
+# ── Dataset collection ────────────────────────────────────────────────────────
+huggingface_hub>=1.0.0
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# ── Graph utilities ───────────────────────────────────────────────────────────
+networkx>=3.0.0
