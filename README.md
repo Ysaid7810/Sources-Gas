@@ -297,33 +297,6 @@ This inter-procedural pattern — a loop delegating to state-modifying helpers c
 
 ---
 
-## 📜 Citation
-
-```bibtex
-@article{said2025gasgat,
-  title   = {GasGAT: A Graph Attention Network Framework for
-             Smart Contract Gas Optimization},
-  author  = {Said, Youssef and Khaddar, Al Mahdi and Hassine, Lahcen
-             and Eddaoui, Ahmed and Chafiq, Tarik},
-  journal = {PeerJ Computer Science},
-  year    = {2025},
-  doi     = {PENDING}
-}
-
-@dataset{said2025gasgat_data,
-  author    = {Said, Youssef and Khaddar, Al Mahdi and Hassine, Lahcen
-               and Eddaoui, Ahmed and Chafiq, Tarik},
-  title     = {{GasGAT Dataset: 40,000 Verified Ethereum Smart Contracts
-               for Gas Optimization Research}},
-  year      = {2025},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
-}
-```
-
----
-
 ## 📧 Contact
 
 **Corresponding author:** Youssef Said
