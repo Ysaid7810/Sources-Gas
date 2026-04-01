@@ -5,7 +5,6 @@
 > This repository accompanies the paper:
 > **"GasGAT: A Graph Attention Network Framework for Smart Contract Gas Optimization"**
 > Youssef Said, Al Mahdi Khaddar, Lahcen Hassine, Ahmed Eddaoui, Tarik Chafiq
-> *Submitted to PeerJ Computer Science, 2025*
 
 ### Key Contributions
 
