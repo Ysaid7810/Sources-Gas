@@ -1,13 +1,3 @@
-# GasGAT: A Graph Attention Network Framework for Smart Contract Gas Optimization
-
-[![PeerJ Computer Science](https://img.shields.io/badge/PeerJ-Computer%20Science-blue)](https://peerj.com/computer-science/)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9+-green)](https://www.python.org/)
-[![PyTorch 2.0](https://img.shields.io/badge/PyTorch-2.0-orange)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
-[![Dataset: Zenodo](https://img.shields.io/badge/Dataset-Zenodo-lightblue)](https://doi.org/10.5281/zenodo.XXXXXXX)
-
----
-
 ## 📖 Description
 
 **GasGAT** is a deep learning framework that models Ethereum smart contracts as **semantic graphs** and applies a **Graph Attention Network (GAT)** to detect gas-intensive code patterns. Unlike rule-based static analysis tools, GasGAT captures **non-local, inter-procedural dependencies** that drive gas inefficiency — patterns invisible to traditional heuristics.
